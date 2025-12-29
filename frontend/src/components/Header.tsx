@@ -1,4 +1,4 @@
-import { SquareUser, LogOut } from "lucide-react";
+import { SquareUser } from "lucide-react";
 
 const Header = () => {
   return (
@@ -15,7 +15,6 @@ const Header = () => {
           <SquareUser size={42} />
           <p className="font-bold flex gap-2">
             <span className="text-yellow-300">User</span>
-            <LogOut />
           </p>
         </div>
       </div>
