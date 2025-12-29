@@ -2,6 +2,7 @@ import { Trash2, Circle, CircleCheck } from "lucide-react";
 import { useState } from "react";
 
 export interface tarefasInterface {
+  id: string;
   titulo: string;
   intervalo: "Todos os dias" | "Uma vez";
   horario: string;
